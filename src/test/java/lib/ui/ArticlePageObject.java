@@ -132,7 +132,7 @@ abstract public class ArticlePageObject extends MainPageObject{
         }
     }
 
-    @Step("Clicking the star to adding my list")
+    @Step("Clicking the star to adding my list") //Вот этот метод!!!
     public void clickStar() {
 
         this.waitForElementPresent(OPTIONS_ADD_TO_MY_LIST_BUTTON, "Cannot find button to add an article to saved list after removing it from this list before", 10);
