@@ -38,7 +38,7 @@ public class MyListsTests extends CoreTestCase
 
 
         String article_title = ArticlePageObject.getArticleTitle();
-        ArticlePageObject.clickStar();
+        ArticlePageObject.clickStar(); //Ошибка происходи тут!!!
         /*if(Platform.getInstance().isAndroid()) {
             ArticlePageObject.addArticleToMyList(name_of_folder);
         } else {ArticlePageObject.addArticlesToMySaved(); }*/
